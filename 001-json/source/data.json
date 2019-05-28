@@ -1,0 +1,10 @@
+{
+	"name":"Ben",
+	"age":33,
+	"smart":false,
+	"friends":["Dan", "Sam", "Samanta"],
+	"eyes": {
+		"left":"green",
+		"right":"brown"		
+	}
+}

@@ -1,0 +1,31 @@
+{
+  "name": "react-json",
+  "version": "1.0.0",
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  },
+  "description": "",
+  "main": "build/server.js",
+  "scripts": {
+    "start": "webpack-dev-server"
+  },
+  "keywords": [],
+  "author": "Ben Fhala <ben@02geek.com>",
+  "license": "ISC",
+  "dependencies": {
+    "babel-polyfill": "^6.9.1",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0"
+  },
+  "devDependencies": {
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "json-loader": "^0.5.4",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  }
+}
